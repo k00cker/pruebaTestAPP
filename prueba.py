@@ -3,7 +3,7 @@ import openai
 import os
 
 # Configurar la API Key de OpenAI (se recomienda usar variables de entorno)
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("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")
 
 # Configuración de la aplicación en Streamlit
 st.title("Generador de Contenido RPG con IA")
