@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import os
 
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Configuración de la aplicación en Streamlit
 st.title("Generador de Contenido RPG con IA")
