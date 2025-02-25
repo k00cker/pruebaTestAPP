@@ -2,8 +2,7 @@ import streamlit as st
 import openai
 import os
 
-# Configurar la API Key de OpenAI (se recomienda usar variables de entorno)
-openai.api_key = os.getenv("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")
+openai.api_key = st.secrets["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"]
 
 # Configuración de la aplicación en Streamlit
 st.title("Generador de Contenido RPG con IA")
